@@ -18,8 +18,8 @@ interfaces:
   Ethernet48:
     descr: "To_Spine1"
     mode: "trunk"
+    
 # VLANs
-
 vlans:
   - id: 10
     name: "ten"
@@ -31,7 +31,6 @@ svis:
     desc: "ten"
     host_ip: "10.10.10.3/24"
     vip: "10.10.10.1"
-
   - id: 20
     desc: "twenty"
     host_ip: "20.20.20.3/24"
